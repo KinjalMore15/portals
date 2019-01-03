@@ -1,0 +1,167 @@
+  .for_modal.onrampNav {
+   background: #fff;
+   display: table;
+   width: 100%;
+   padding: 10px 21px 0;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   color: #000;
+   text-align: center;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+   }
+   div {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+   }
+   .for_modal.onrampNav .path_title {
+   margin: .5em 0;
+   font-size: 1.7em;
+   }
+   .for_modal.onrampNav .progress-indicator {
+   margin-bottom: 0;
+   }
+   .flexer, .progress-indicator {
+   display: flex;
+   }
+   .progress-indicator {
+   margin: 0;
+   padding: 0;
+   text-transform: uppercase;
+   margin-bottom: 1em;
+   }
+   .progress-indicator>li .line:before {
+   display: block;
+   position: absolute;
+   top: 9px;
+   width: 50%;
+   height: 3px;
+   content: '';
+   background-color: #cbcfd0;
+   }
+   .progress-indicator>li .line:after{
+   right: 0;
+   display: block;
+   position: absolute;
+   top: 9px;
+   width: 50%;
+   height: 3px;
+   content: '';
+   background-color: #cbcfd0;
+   }
+   .progress-indicator>li.completed .line:before {
+   background-color: #71af05;
+   z-index: 10;
+   }
+   .progress-indicator>li.completed .line:after {
+   background-color: #71af05;
+   z-index: 10;
+   }
+   ul {
+   list-style: none;
+   }
+   .progress-indicator>li.completed, .progress-indicator>li.completed:hover {
+   color: #71af05;
+   }
+   .progress-indicator>li.completed {
+   color: #71af05;
+   }
+   .progress-indicator>li {
+   color: #cbcfd0;
+   }
+   .progress-indicator>li {
+   list-style: none;
+   text-align: center;
+   width: auto;
+   padding: 0;
+   margin: 0;
+   position: relative;
+   text-overflow: ellipsis;
+   color: #bdc1c3;
+   display: block;
+   }.progress-indicator>li.completed, .progress-indicator>li.completed:hover {
+   color: #71af05;
+   }
+   .progress-indicator>li.completed {
+   color: #71af05;
+   }
+   .progress-indicator>li {
+   color: #cbcfd0;
+   }
+   .progress-indicator>li {
+   list-style: none;
+   text-align: center;
+   }
+   .progress-indicator>li.completed .bubble {
+   background-color: #71af05;
+   color: #71af05;
+   }
+   .progress-indicator>li .bubble {
+   display: inline-block;
+   z-index: 11;
+   position: absolute;
+   left: 46.5%;
+   background-color: #cbcfd0;
+   border-radius: 1000px;
+   width: 14px;
+   height: 14px;
+   background-color: #bdc1c3;
+   display: block;
+   margin: .3em auto .5em auto;
+   font-size: .8em;
+   }
+   ul, menu, dir {
+   display: block;
+   list-style-type: disc;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   padding-inline-start: 40px;
+   }
+   .progress-indicator>li .step_txt {
+   padding-top: 24px;
+   display: block;
+   }
+   .progress-indicator .step_txt {
+   font-size: .9em;
+   }
+   div{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+   }
+   .progress-indicator>li {
+   color: #cbcfd0;
+   list-style: none;
+   text-align: center;
+   width: auto;
+   padding: 0;
+   margin: 0;
+   position: relative;
+   text-overflow: ellipsis;
+   display: block;
+   }
+   .progress-indicator>li {
+   flex: 1;
+   }
+   .section {
+   line-height: 1.5;
+   }
+   span{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+   }

@@ -1,0 +1,217 @@
+    <!--Contact Edit Modal -->
+    <div class="modal fade" id="ContactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+       <div class="modal-dialog" role="document">
+          <div class="modal-content">
+             <form method="post" action="{{url('job-seeker/edit-contact')}}" enctype="multipart/form-data">
+                {{ csrf_field() }}
+                <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                   <h2>Edit Contact</h2>
+                </div>
+                <div class="modal-body">
+                   <div class="resum-form padd-tb">
+                      <div class="">
+                         <div class="row">
+                            <div class="col-md-12">
+                               <input name="email"  type="text" placeholder="{{ (!empty(($seeker_detail->email))) ? ($seeker_detail->email)  : 'Facebook' }}" value="{{ (!empty(($seeker_detail->email))) ? ($seeker_detail->email)  : null }}">
+                            </div>
+                            <div class="col-md-12">
+                               <input name="phone_number"  type="text" placeholder="{{ (!empty(($seeker_detail->phone_number))) ? ($seeker_detail->phone_number)  : 'Gmail' }}" value="{{ (!empty(($seeker_detail->phone_number))) ? ($seeker_detail->phone_number)  : null }}">
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+                <div class="modal-footer">
+                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                   <button type="submit" value="Submit" class="btn btn-primary">Save changes</button>
+                </div>
+             </form>
+          </div>
+       </div>
+    </div>
+<!-- Modal -->
+<!-- Modal -->
+<!--Website Edit Modal -->
+<div class="modal fade" id="websiteModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+   <div class="modal-dialog" role="document">
+      <div class="modal-content">
+         <form method="post" action="{{url('job-seeker/edit-website')}}" enctype="multipart/form-data">
+            {{ csrf_field() }}
+            <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+               <h2>Edit Websites</h2>
+            </div>
+            <div class="modal-body">
+               <div class="resum-form padd-tb">
+                  <div class="">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <input name="fb_link"  type="text" placeholder="{{ (!empty(($seeker_detail->jsSeekerDetail->fb_link))) ? ($seeker_detail->jsSeekerDetail->fb_link)  : 'Facebook' }}" value="{{ (!empty(($seeker_detail->jsSeekerDetail->fb_link))) ? ($seeker_detail->jsSeekerDetail->fb_link)  : null }}">
+                        </div>
+                        <div class="col-md-12">
+                           <input name="gmail_link"  type="text" placeholder="{{ (!empty(($seeker_detail->jsSeekerDetail->gmail_link))) ? ($seeker_detail->jsSeekerDetail->gmail_link)  : 'Gmail' }}" value="{{ (!empty(($seeker_detail->jsSeekerDetail->gmail_link))) ? ($seeker_detail->jsSeekerDetail->gmail_link)  : null }}">
+                        </div>
+                        <div class="col-md-12">
+                           <input name="tweet_link"  type="text" placeholder="{{ (!empty(($seeker_detail->jsSeekerDetail->tweet_link))) ? ($seeker_detail->jsSeekerDetail->tweet_link)  : 'Gmail' }}" value="{{ (!empty(($seeker_detail->jsSeekerDetail->tweet_link))) ? ($seeker_detail->jsSeekerDetail->tweet_link)  : null }}">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               <button type="submit" value="Submit" class="btn btn-primary">Save changes</button>
+            </div>
+         </form>
+      </div>
+   </div>
+</div>
+<!-- Modal -->
+<!--Summery Edit Modal -->
+<div class="modal fade" id="SummeryModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+   <div class="modal-dialog" role="document">
+      <div class="modal-content">
+         <form method="post" action="{{url('')}}" enctype="multipart/form-data">
+            {{ csrf_field() }}
+            <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+               <h2>Edit Summery</h2>
+            </div>
+            <div class="modal-body">
+               <div class="resum-form padd-tb">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <textarea name="summary">{{$seeker_detail->jsSeekerDetail->summary}}</textarea>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               <button type="submit" value="Submit" class="btn btn-primary">Save changes</button>
+            </div>
+         </form>
+      </div>
+   </div>
+</div>
+<!-- Modal -->
+<!-- Modal -->
+<div class="modal fade" id="SummeryModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+   <div class="modal-dialog" role="document">
+      <div class="modal-content">
+         <form method="post" action="{{url('job_seeker/edit-contact')}}" enctype="multipart/form-data">
+            {{ csrf_field() }}
+            <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+               <h2>Edit Summery</h2>
+            </div>
+            <div class="modal-body">
+               <div class="resum-form padd-tb">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <textarea>{{$seeker_detail->jsSeekerDetail->summary}}</textarea>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               <button type="submit" value="Submit" class="btn btn-primary">Save changes</button>
+            </div>
+         </form>
+      </div>
+   </div>
+</div>
+<!-- Modal -->
+<!-- Work Experiance Edit Modal -->
+<div class="modal fade" id="expModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal-dialog" role="document">
+   <div class="modal-content">
+      <form method="post" action="{{url('job_seeker/create-workexp')}}" enctype="multipart/form-data">
+         {{ csrf_field() }}
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h2>Edit Experiance</h2>
+         </div>
+         <div class="modal-body">
+            <div class="resum-form padd-tb">
+               <div class="row">
+                  <div class="col-md-6">
+                     <input name="job_title" required="" type="text" placeholder="Job Titel">
+                  </div>
+                  <div class="col-md-6">
+                     <input name="compnay_name" required="" type="text" placeholder="Company Name">
+                  </div>
+                  <div class="col-md-12">
+                     <div class="selector">
+                        <select class="full-width" name="industry_id">
+                           @foreach($industries as $industry)                  
+                           <option value="{{$industry->id}}">{{$industry->name}}</option>
+                           @endforeach
+                        </select>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <input class="unstyled" name="start_date" required="" type="date" placeholder="Start Date">
+                  </div>
+                  <div class="col-md-4">
+                     <input name="end_date" required="" type="date" placeholder="End Date">
+                  </div>
+                  <div class="col-md-12">
+                     <textarea name="summary"></textarea>
+                  </div>
+               </div>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               <button type="submit" value="Submit" class="btn btn-primary">Save changes</button>
+            </div>
+      </form>
+      </div>
+   </div>
+</div>
+<!-- Modal -->
+<!-- Modal -->
+<div class="modal fade" id="eduModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+   <div class="modal-dialog" role="document">
+      <div class="modal-content">
+         <form method="post" action="{{url('')}}" enctype="multipart/form-data">
+            {{ csrf_field() }}
+            <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+               <h2>Edit Educations</h2>
+            </div>
+            <div class="modal-body">
+               <div class="resum-form padd-tb">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <input name="certificate_degree_name" required="" type="text" placeholder="Certificate/Degree_name">
+                     </div>
+                     <div class="col-md-12">
+                        <input name="major" required="" type="text" placeholder="Major">
+                     </div>
+                     <div class="col-md-12">
+                        <input name="institute_name" required="" type="text" placeholder="Institute Name">
+                     </div>
+                     <div class="col-md-6">
+                        <input class="unstyled" name="compnay_name" required="" type="date" placeholder="Start Date">
+                     </div>
+                     <div class="col-md-6">
+                        <input name="compnay_name" required="" type="date" placeholder="End Date">
+                     </div>
+                     <div class="col-md-12">
+                        <textarea></textarea>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               <button type="submit" value="Submit" class="btn btn-primary">Save changes</button>
+            </div>
+         </form>
+      </div>
+   </div>
+</div>
+<!-- Modal -->

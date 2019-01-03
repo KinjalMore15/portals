@@ -1,0 +1,101 @@
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.jobs-content {
+    float: left;
+    width: 100%
+}
+.jobs-content #loadMore {
+    padding: 30px 0 0;
+    overflow: hidden;
+    clear: both
+}
+.jobs-content .box {
+   float: left;
+    width: 100%;
+    padding: 10px;
+    margin: 0 0 10px ;
+    background: #fff;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .15);
+    -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .15);
+    -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .15);
+}
+.jobs-content .box .frame {
+    float: left;
+    margin: 0 30px 0 0
+}
+.theme-style-1 h1 {
+   font: 300 36px/36px 'Roboto', sans-serif;
+    color: #8cad4b;
+    margin: 0;
+}
+.jobs-content .box .text-box {
+    overflow: hidden
+}
+
+.jobs-content .box .text-box h2 {
+    margin: 0 0 12px
+}
+
+.jobs-content .box .text-box h4 {
+    margin: 0 0 15px
+}
+
+.jobs-content .box .text-box strong {
+    float: left;
+    font: 400 13px/13px 'Roboto', sans-serif;
+    color: #888;
+    padding: 0 20px 0 0
+}
+
+.jobs-content .box .text-box strong .fa {
+    padding: 0 6px 0 0
+}
+
+.jobs-content .box .text-box strong a {
+    color: #888
+}
+
+.jobs-content .box .text-box strong a:hover {
+    color: #ffc107;
+    text-decoration: none
+}
+
+.jobs-content .box .text-box span.price {
+    display: block;
+    font: 700 18px/18px 'Roboto', sans-serif;
+    color: #222;
+    padding: 0 0 15px
+}
+
+.jobs-content .box .text-box .clearfix {
+    padding: 0 0 15px
+}
+
+.jobs-content .box .text-box span.price .fa {
+    padding: 0 6px 0 0
+}
+.jobs-content .box .text-box strong a,
+.btn-row {
+    float: left;
+    width: 100%;
+    padding-bottom: 12px;
+}
+.resumes-content .box .text-box strong a {
+    color: #888;
+}
+.jobs-content .box .text-box .clearfix {
+    padding: 0 0 15px;
+}
+.jobs-content .box .text-box strong {
+    float: left;
+    font: 400 13px/13px 'Roboto',sans-serif;
+    color: #888;
+    padding: 0 20px 0 0;
+}
+.tags {
+    float: left;
+    width: 100%;
+    margin: 0 0 0px !important;
+}

@@ -1,0 +1,140 @@
+.theme-style-1 h4{
+  color: #222;
+  font: 200 18px/18px 'Roboto', sans-serif;
+}
+.theme-style-1 h1{
+  color: #000;
+  padding-right: 10px;
+  margin: 0;
+  display: inline-block;
+  font-weight:500;
+
+}
+@media screen and (min-width: 0px) and (max-width: 720px) {
+  #hiderow { display: none; }  /* show it on small screens */
+}
+.registration-form input[type=text] {
+    float: left;
+    width: 100%;
+    height: 43px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0px 0 20px;
+    font: 400 14px/14px 'Roboto', sans-serif;
+    color: #666;
+}
+.registration-form input[type=password] {
+    float: left;
+    width: 100%;
+    height: 43px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0px 0 20px;
+    font: 400 14px/14px 'Roboto', sans-serif;
+    color: #666;
+}
+.selector{
+    padding:0px !important;
+    margin: 0px 0 20px;
+}
+.select2-container--default .select2-selection--single{
+  float: left;
+    width: 100%;
+    height: 43px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0px 0 20px;
+    font: 400 14px/14px 'Roboto', sans-serif;
+    color: #666;  
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.registration-form input[type=number] {
+    float: left;
+    width: 100%;
+    height: 43px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0px 0 20px;
+    font: 400 14px/14px 'Roboto', sans-serif;
+    color: #666;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+    display: block;
+    padding-left: 8px;
+    padding-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.double-bump {
+    padding: 1em 2em 1em 2em;
+}
+.btn.facebook, .facebook.quick-apply-btn, .ui-widget button.facebook, .ui-widget input[type=submit].facebook {
+    background-color: #4b65a5;
+    border-color: #4b65a5;
+        color: #fff;
+            width: -webkit-fill-available
+}
+.btn.google, .google.quick-apply-btn, .ui-widget button.google, .ui-widget input[type=submit].google {
+    background-color: #dd4b39;
+    border-color: #dd4b39;
+        color: #fff;
+            width: -webkit-fill-available
+}
+.btn, button, {
+    background: #85ce3f;
+    border: .125rem solid #85ce3f;
+    font-weight: 700;
+    font-size: 1rem;
+    height: 2.5rem;
+    line-height: 2.25rem;
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: .625rem;
+    display: block;
+    width: 100%;
+    color: #fff;
+    border-radius: 3px;
+    transition: background-color 300ms ease-out;
+}
+.select2-container--default .select2-selection--single {
+    float: left;
+    width: 100%;
+    height: 43px !important;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0px 0 20px;
+    font: 400 14px/14px 'Roboto', sans-serif;
+    color: #666;
+    height: 43px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}

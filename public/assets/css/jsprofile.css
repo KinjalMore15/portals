@@ -1,0 +1,228 @@
+   .padd-tb {
+   padding: 20px 0 !important ;
+   }
+   .sidebar .box {
+   float: left;
+   width: 100%;
+   background: #fff;
+   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .15);
+   -moz-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .15);
+   -webkit-box-shadow: 3px 5px 5px 5px rgba(0, 0, 0, .15);
+   border-radius: 4px;
+   margin: 0 0 40px;
+   }
+   .material-switch > input[type="checkbox"] {
+   display: none;   
+   }
+   .material-switch > label {
+   cursor: pointer;
+   height: 0px;
+   position: relative; 
+   width: 40px;  
+   }
+   .material-switch > label::before {
+   background: rgb(0, 0, 0);
+   box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+   border-radius: 8px;
+   content: '';
+   height: 16px;
+   margin-top: -8px;
+   position:absolute;
+   opacity: 0.3;
+   transition: all 0.4s ease-in-out;
+   width: 40px;
+   }
+   .material-switch > label::after {
+   background: rgb(255, 255, 255);
+   border-radius: 16px;
+   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+   content: '';
+   height: 24px;
+   left: -4px;
+   margin-top: -8px;
+   position: absolute;
+   top: -4px;
+   transition: all 0.3s ease-in-out;
+   width: 24px;
+   }
+   .material-switch > input[type="checkbox"]:checked + label::before {
+   background: inherit;
+   opacity: 0.5;
+   }
+   .material-switch > input[type="checkbox"]:checked + label::after {
+   background: inherit;
+   left: 20px;
+   }
+   .summary-box {
+   padding: 0px !important;
+   }
+   .sidebar h4 {
+   padding-left: 25%;
+   position: relative;
+   }
+   .edit h4 {
+   text-align: right;
+    margin: 10px 0 10px !important;
+   }
+   h4 {
+   color: #8ca930 !important;
+   position: relative !important;
+   }
+ 
+   .sidebar .box .thumb:before {
+   content: '';
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 50%;
+   height: 50%;
+   opacity: 0 !important;
+   background: #fff;
+   }
+   .sidebar .box .text-box {
+   float: left;
+   width: 100%;
+   padding: 10px 5px 5px 10px;
+   }
+   .job-detail .clearfix {
+   float: left;
+   width: 100%;
+   padding: 0px 0 15px;
+   }
+   .theme-style-1 h2 {
+   font: 500 30px/30px 'Roboto', sans-serif;
+   color: #87a841;
+   margin: 0 0 10px;
+   }
+   .job-detail .company-social {
+   margin-left: 0px;
+   float: left;
+   }
+   .job-detail ul li {
+   padding: 0 0 15px 0px;
+   overflow: hidden;
+   display: block;
+   font: 400 14px/18px 'Roboto', sans-serif;
+   color: #666;
+   position: relative;
+   }
+   * {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   }
+   body {
+   font-family: helvetica neue, Helvetica, Arial, sans-serif;
+   font-size: 14px;
+   line-height: 1.42857143;
+   background-color: #fff;
+   }
+   .sidebar .box .thumb {
+   float: center;
+   margin: 5% 25%;
+   border-style: solid;
+   border-width: 2px 10px 4px  0px;
+   border: 1px solid #73AD21;
+   padding: 0px;
+   width: 50%;
+   overflow: hidden;
+   background: #fff;
+   position: relative;
+   border-radius: 150px;
+   }
+   * {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   }
+   .sidebar .box .thumb:before {
+   content: '';
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   opacity: 0 !important;
+   background: #fff;
+   }
+   .skills-box {
+   padding: 10px !important;
+   }
+   #content-area .box {
+   float: left !important;
+   width: 100%;
+   background: #fff !important;
+   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .15)!important;
+   -moz-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .15)!important;
+   -webkit-box-shadow: 3px 5px 5px 5px rgba(0, 0, 0, .15)!important;
+   border-radius: 4px !important;
+   margin: 0 0 40px !important;
+   border-style: none !important;
+   border-width: 1px 1px 1px 1px rgba(0, 0, 0, .15) !important;
+   }
+   .sidebar .box .link-box a.text {
+   display: block;
+   font: 200 20px/15px 'Roboto', sans-serif;
+   color: #87a841;
+   padding: 10px 12px 12px 12px;
+   }
+   .profile h4 {
+   margin: 10px 0 10px;
+   float: right;
+   }
+   .text-box h2{
+    color: #87a841;  
+   }
+   .job-detail h4 {
+      
+   margin: 10px 0 10px !important;
+   }
+   .job-detail h5 {
+   color: #8ca930 !important;
+   text-align: right !important;
+   margin: 10px 0 10px !important;
+   }
+   .resum-form input[type=date] {
+    float: left;
+    width: 100%;
+    height: 43px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0 0 28px;
+    font: 400 14px/14px 'Roboto', sans-serif;
+    color: #666;
+}
+input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+.candidates-search-bar form {
+   
+    padding: 15px !important;
+}
+.outer {
+    float: left;
+    width: 100%;
+    padding-bottom: 00px !important;
+}
+.summary-box span {
+    display: block;
+    color: #8ca930 !important;
+    font: 400 15px/15px Roboto, sans-serif;
+    padding: 0px 0px 00px !important;
+}
+
+.resum-form textarea {
+       padding: 0px 0px !important; 
+  }
+  .facts-box {
+    float: left !important;
+    width: 100% !important;
+    background-image: none !important;    
+    background-color: #fff !important;
+    padding: 5px 0;
+}
